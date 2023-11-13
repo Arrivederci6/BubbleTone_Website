@@ -1,0 +1,46 @@
+.features{
+    background: url(../Assets/background.svg);
+    height: 140vh;
+}
+
+.features_info{
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.heading h2{
+    margin-top: 0;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading{
+    width: 100%;
+}
+
+.secondary{
+    margin-top: 150px;
+}
+
+.tip h3{
+    font-size: 25px;
+    color: white;
+}
+
+.tip p{
+    color: white;
+}
+
+.central_tips{
+    display: flex;
+}
+
+#phoneImg{
+    width: 600px;
+}
