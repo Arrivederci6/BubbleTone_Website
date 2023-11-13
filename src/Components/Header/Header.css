@@ -1,0 +1,86 @@
+header{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mail{
+    display: flex;
+}
+
+.top_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mail img{
+    margin-right: 18px;
+    width: 18px;
+}
+
+.mail h3{
+    font-size: 16px;
+    color: white;
+}
+
+.social_medias{
+    list-style: none;
+}
+
+.social_medias li{
+    display: inline;
+}
+
+.bottom_header{
+    display: flex;
+}
+
+.logo{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo p{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navigation{
+    width: 850px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav_menu{
+    padding: 0;
+    padding-top: 18px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav_menu li:hover{
+    transition: ease-in-out 0.1s;
+    color: blue;
+    text-decoration: underline;
+}

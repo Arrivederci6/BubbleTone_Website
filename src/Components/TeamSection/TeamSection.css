@@ -1,0 +1,30 @@
+.team_section{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 80vh;
+}
+
+.team_section h2{
+    margin-top: 100px;
+}
+
+.teammates_part{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teammate{
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.teammate img{
+    width: 200px;
+    border: 2px dashed #5956E9;
+    border-radius: 100px;
+}
